@@ -9,11 +9,12 @@
   <body>
     <div class="container">
       <header>
-        <form class="seach-form">
+        <form class="seach-form" id="search-form">
           <input
             type="search"
             placeholder="Enter city name..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -22,7 +23,7 @@
       <main>
         <div class="app-data">
           <div>
-            <h1 class="app-city">Chicago</h1>
+            <h1 class="app-city" id="app-city">Chicago</h1>
             <p class="weather-details">
               Monday 12:17, partly cloudy<br />
               Humidity: <strong>35%</strong> Wind: <strong> 3.8 km/h</strong>
