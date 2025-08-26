@@ -17,11 +17,12 @@ a {
 }
 .app-data {
   display: flex;
+  justify-content: space-between;
 }
-
 .weather-details {
   font-size: 15px;
   color: rgba(39, 33, 66, 0.4);
+  line-height: 20px;
 }
 
 .weather-details strong {
@@ -45,11 +46,12 @@ a {
 }
 
 .temperature-unit {
-  margin-top: 30px;
+  margin-top: 16px;
+  font-size: 25px;
 }
 .weather-icon {
   font-size: 55px;
-  margin-top: 22px;
+  margin-top: 12px;
 }
 
 header {
