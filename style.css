@@ -50,8 +50,8 @@ a {
   font-size: 25px;
 }
 .weather-icon {
-  font-size: 55px;
-  margin-top: 12px;
+  width: 88px;
+  height: 88px;
 }
 
 header {
