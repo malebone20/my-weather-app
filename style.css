@@ -1,8 +1,10 @@
 body {
   height: 100%;
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/035/296/small_2x/blurred-backgrounds-blur-abstract-backgrounds-beautiful-and-bright-abstract-backgrounds-are-used-for-creative-decorations-free-photo.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 a {
