@@ -49,39 +49,7 @@ a {
   margin-top: 16px;
   font-size: 25px;
 }
-.forecast-day {
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
-}
-.weather-icon {
-  width: 88px;
-  height: 88px;
-  object-fit: contain;
-}
 
-.weekday {
-  text-align: center;
-  color: rgba(39, 33, 66, 0.4);
-  line-height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.forecast-icon {
-  text-align: center;
-  font-size: 38px;
-}
-.forecast-temp {
-  text-align: center;
-  font-size: 15px;
-  color: #b95225;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-.temp {
-  margin: 0 10px;
-}
 header {
   border-bottom: 1px solid #ace0f9;
   padding: 0 0 30px 0;
@@ -105,7 +73,37 @@ header {
 main {
   padding: 30px 0;
 }
-
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.forecast-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weekday {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+.forecast-temp {
+  text-align: center;
+  color: #b95225;
+  margin-top: 10px;
+  display: flex;
+  justify-self: center;
+}
+.temp {
+  padding: 0 10px;
+}
 .footer {
   border-top: 1px solid #ace0f9;
   padding: 30px 0 0 0;
