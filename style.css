@@ -91,8 +91,9 @@ main {
   margin-bottom: 10px;
 }
 .forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 .forecast-temp {
   text-align: center;
@@ -102,7 +103,7 @@ main {
   justify-self: center;
 }
 .temp {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .footer {
   border-top: 1px solid #ace0f9;
